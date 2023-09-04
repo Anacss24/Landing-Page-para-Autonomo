@@ -1,0 +1,272 @@
+a{
+    text-decoration: none; 
+    color:#e4e0e0 ; 
+}
+.navbar{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black; 
+    color: #fff; 
+    padding: 10px; 
+    z-index: 100;
+}
+nav a:last-child {
+    border: 2px solid rgb(255, 0, 0);
+    padding: 12px;
+    border-radius: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;   
+    
+}
+nav img{
+    width: 220px;
+    height: 150px;
+}
+.caixa_img img{
+    width: 100%;
+    opacity: 90%;   
+}
+
+.caixa_img h1, button{
+    font-family: Pacifico, cursive;
+    color:#e4e0e0;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, .75);
+    top: 18%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;    
+}
+
+#caixa_titulo{
+    font-size: 60px;
+}
+
+#caixa_par{
+    font-family: Pacifico, cursive;
+    color:#e4e0e0;
+    position: absolute;
+    font-size: 20px;
+    top:35%;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, .75);
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;    
+}
+
+#caixa_but{
+    font-size: 20px;
+    color: white;
+    top: 48%;
+    width: 16%;
+    padding: 10px;
+    background-color:black;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+}
+/* Seção Sobre */
+.img_sobre{
+    padding-top: 20px;
+    width: 500px;
+    height: 350px;
+    border-radius: 30px;
+    padding-right: 20px;
+    
+}
+.texto_sobre{
+    float: left;
+    
+}
+
+
+.box_sobre{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 550px;
+     padding-left:20px;
+    
+    
+} 
+p {
+    padding: 10px;
+    font-size: 18px;
+    padding-right: 30px;
+ 
+}
+
+
+h2{
+   font-weight: 60px;
+   font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+.produtos{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 550px;
+
+}
+
+h2#secao2{
+    padding-bottom: 0;
+}
+
+
+.container{
+    padding-top: 5px;
+    width: 400px;
+    height: 350px;
+    border: 2px solid ;
+    box-shadow:  0px 0px 5px 2px #000;   
+    border-radius: 20px;
+    
+   
+}
+.container .sub_container{
+    padding: 30px 63px;
+    
+}
+
+.container:first-child {
+    border-color: red;
+    
+}
+
+.container:nth-child(2){
+    border-color: green;
+}
+
+
+.container:nth-child(3){
+    border-color: yellow;
+}
+/* Contatos */
+
+.contatos{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+form{
+    text-align: center;
+    
+}
+ input, textarea{
+    padding: 15px;
+    border-radius: 20px;
+    width: 350px;
+    
+ }
+ input[type="button"]{
+    background-color:black;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    color: white;
+font-weight: bold;
+ }
+
+ footer{
+text-align: center;
+padding-top: 20px;
+background-color: rgb(27, 26, 26);
+color: white;
+padding-bottom: 10px;
+ }
+
+
+a:hover{
+    border-bottom: 2px solid red;
+}
+
+#logo:hover{
+   border-bottom: 2px solid transparent;
+}
+
+    @media (max-width: 768px) {
+       nav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 12px;
+        height: 12%;
+        
+       }
+
+        .logo_img{
+            display: none;
+        }
+        nav a{
+            font-size: 12px;
+            
+        }
+
+        .caixa_img img{
+            width: 400px;
+            height: 400px; ;
+        }
+
+        
+        #caixa_titulo{
+        font-size: 25px;
+        top: 15%;
+        }     
+
+        #caixa_par{
+        font-size: 18px;
+        top: 33%;
+        }
+
+        #caixa_but{
+            width: 50%;
+            font-size: 18px;
+        }
+        .box_sobre{
+        display: block;
+
+        }
+        .img_sobre{
+            width: 400px;
+        height: 300px;
+        padding: 0;
+        display: none;
+        }
+        .produtos{
+        flex-wrap: wrap;
+    
+         } 
+
+        .container{
+        padding-top: 10px;
+        margin: 40px;
+        }
+    
+        #contatos{
+        padding-top: 750px;
+        }
+        div.sub_container h1{
+        margin: 2px;
+        }
+        }
+
+    
+
+
+        
+        
+
+
+
