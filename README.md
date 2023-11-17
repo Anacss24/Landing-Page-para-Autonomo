@@ -3,7 +3,7 @@ Disciplina: Web Standards
 
 ### Tema: Landing Page para Autônomo
 
-## Enuciado ✔
+## Enunciado ✔
 
 Nessa única página você precisa elaborar pelo menos 05 faixas falando
 sobre a empresa, os produtos/serviços oferecidos, as vantagens e
