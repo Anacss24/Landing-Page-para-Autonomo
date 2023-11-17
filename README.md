@@ -15,4 +15,4 @@ acessada pelo celular também. Você deve utilizar as Linguagens HTML,
 CSS e FLEXBOX para contemplar a tarefa.
 
 ## Visite o site 🖥
-  <a href="https://anacss24.github.io/PTI_WEB/src/pages/home/index.html#" target="_blank"> Salgadaria Delícias do Sabor 🍗 </a>
+  <a href="https://anacss24.github.io/Landing-Page-para-Autonomo/src/pages/home/" target="_blank"> Salgadaria Delícias do Sabor 🍗 </a>
